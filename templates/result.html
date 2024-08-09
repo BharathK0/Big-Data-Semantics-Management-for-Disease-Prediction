@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Result</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #20232a; /* Dark background for better contrast */
+            color: #61dafb; /* Light blue color for text for readability */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: auto;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.95); /* Slightly transparent white */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            width: 90%;
+            max-width: 800px; /* Wider max width for better display of content */
+        }
+        h1 {
+            color: #20232a; /* Dark color for headers to contrast against the light background */
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        pre {
+            background-color: #282c34; /* Dark background for pre block */
+            color: #9DA5B4; /* Light grey color for text in pre block */
+            border-left: 5px solid #61dafb;
+            padding: 20px;
+            overflow: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            border-radius: 5px;
+            font-size: 16px; /* Larger font size for better readability */
+        }
+        /* Scrollbar styles */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{ message }}</h1>
+        <pre>{{ output }}</pre>
+    </div>
+</body>
+</html>

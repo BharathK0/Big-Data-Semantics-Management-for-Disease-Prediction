@@ -1,0 +1,5 @@
+0 skin
+1 document
+2 lung
+3 malaria
+4 alziemer
