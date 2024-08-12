@@ -18,10 +18,11 @@ To run this project, you need to execute the `app.py` file. Follow these steps:
 
 Contributors
 ------------
+- Bharath K - 1RF21CS403
 - Adarsh S - 1RF21CS401
 - Aadithya V Jamadagni - 1RF21CS400
 - Kuldeep Jain - 1RF20CS047
-- Bharath K - 1RF21CS403
+
 
 Institution: RV Institute of Technology and Management
 Address: JPNagar 8th Phase, Kothanur, Bangalore-560082
